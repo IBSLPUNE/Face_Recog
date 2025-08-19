@@ -144,6 +144,11 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+doc_events = {
+    "Employee Test": {
+        "before_save": "face_recog.api.after_insert_face_capture"
+    }
+}
 
 # Scheduled Tasks
 # ---------------
